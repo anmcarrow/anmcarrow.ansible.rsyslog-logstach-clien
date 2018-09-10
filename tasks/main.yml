@@ -1,0 +1,16 @@
+---
+
+- name: Deploy Json-convertation template on target host(s)
+  template:
+    src: 50-json.conf.j2
+    dest: /etc/rsyslog.d/50-json.conf
+  notify:
+    - rsyslogd reload
+
+- name: Deploy Json-convertation template on target host(s)
+  template:
+    src: 60-logstash.conf.j2
+    dest: /etc/rsyslog.d/60-logstash.conf
+  notify:
+    - rsyslogd reload
+
