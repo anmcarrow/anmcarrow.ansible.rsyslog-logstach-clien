@@ -4,4 +4,4 @@
 #  command: "service sshd reload"
   systemd:
     name: rsyslog
-    state: reloaded
+    state: restarted
