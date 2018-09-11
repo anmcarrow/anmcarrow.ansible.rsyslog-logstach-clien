@@ -1,7 +1,7 @@
 ---
 
-- name: "sshd reload"
+- name: "rsyslog reload"
 #  command: "service sshd reload"
   systemd:
-    name: sshd
+    name: rsyslog
     state: reloaded
