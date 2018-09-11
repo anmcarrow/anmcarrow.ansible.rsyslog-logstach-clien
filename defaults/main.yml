@@ -1,0 +1,4 @@
+---
+
+logstash_address: "{{ hostvars[groups['elk-hosts'][0]].ansible_ssh_host }}"
+logstash_port: "10514"
