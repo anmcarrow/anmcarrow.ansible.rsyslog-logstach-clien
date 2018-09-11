@@ -2,7 +2,7 @@ Tiny Ansible role for reconfigure the Rsyslog service
 and enable remote Rsyslog-logging to the  Logstash/ELK service.
 
 ### Additional info:
-Of course, before the run of this role to your host, you need to configure appropriate Logstash pipline.
+Of course, before the run of this role to your host, you need to configure appropriate Logstash pipeline.
 
 
 #### For example:
