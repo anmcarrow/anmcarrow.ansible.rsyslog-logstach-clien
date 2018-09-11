@@ -7,7 +7,7 @@ Of course, before the run of this role to your host, you need to configure appro
 
 #### For example:
 
-```json
+```
 input {
   udp {
     port => 10514
