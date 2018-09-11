@@ -1,5 +1,10 @@
 ---
 
+- name: Ensure that Rsyslog is installed on target host(s)
+  package:
+    name: rsyslog
+    state: present
+
 - name: Deploy Json-convertation template on target host(s)
   template:
     src: 50-json.conf.j2
